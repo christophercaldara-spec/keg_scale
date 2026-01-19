@@ -25,7 +25,23 @@
     </header>
 
     <main>
-        <h2 class="dashboard-title">Keg Inventory</h2>
+        <div id="notifications-container"></div>
+
+        <div class="controls-bar">
+            <h2 class="dashboard-title">Keg Inventory</h2>
+            <div class="sort-container">
+                <label for="sort-select">Sort by:</label>
+                <select id="sort-select">
+                    <option value="default">Default</option>
+                    <option value="top-selling">Top Selling</option>
+                    <option value="lowest-selling">Lowest Selling</option>
+                    <option value="highest-volume">Highest Volume</option>
+                    <option value="lowest-volume">Lowest Volume</option>
+                    <option value="distributor">Distributor</option>
+                </select>
+            </div>
+        </div>
+
         <section id="dashboard" class="dashboard-grid">
             <!-- Keg cards will be injected here by JavaScript -->
         </section>
