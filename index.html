@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KegScale Dashboard | Monitor Your Inventory</title>
+    <meta name="description"
+        content="A premium Material Design dashboard for monitoring your beer keg levels in real-time.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="KegScale Logo" class="logo-img">
+            <h1>KegScale</h1>
+        </div>
+        <div class="header-actions">
+            <!-- Future: Settings, Profile, etc. -->
+        </div>
+    </header>
+
+    <main>
+        <h2 class="dashboard-title">Keg Inventory</h2>
+        <section id="dashboard" class="dashboard-grid">
+            <!-- Keg cards will be injected here by JavaScript -->
+        </section>
+    </main>
+
+    <footer
+        style="text-align: center; padding: var(--spacing-xl); color: var(--md-sys-color-outline); font-size: 14px;">
+        &copy; 2026 KegScale Systems. All rights reserved.
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
